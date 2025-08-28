@@ -10,6 +10,7 @@ interface AccommodationCardProps {
 const AccommodationCard = ({ accommodation, onView }: AccommodationCardProps) => {
   const { id, title, description, price, location, images } = accommodation;
 
+  
   return (
     <Card 
       sx={{ 
